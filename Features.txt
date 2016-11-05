@@ -1,0 +1,125 @@
+USER
+1. Get Data from Api (DONE)
+2. Display SubTitle from description (DONE)
+3. Add Panel Color from theme (DONE)
+3a. Show Modal dialog box for Delete (DONE)
+3b. Render Modal Dialag As Link (DONE)
+3c. Show Delete Link on the DataTable (DONE)
+3d. Configure defaultState to accept Links(DONE)
+4. Cofigurable Action Columns (DONE)
+5. Conditional Action Columns depending on record value (eg. Activate for deactive users and vice versa) (DONE)
+5b. Show Id Clickable Link on Datatable(DONE)
+6. Multi select Checkbox on Data Table (DONE)
+6a. Show Checkboxes image on ListView (DONE)
+6c. Selecting top checkbox should select all (DONE)
+11. Remove the console error on DataTable (DONE)
+12. Load correct data, as the user moves through the tabs (DONE)
+7. Filter Text Working on Data Table (DONE)
+21. Show Message no Records to display if empty rows (DONE)
+22. Pagination control added (DONE)
+10. Pagination Logic (DONE)
+8a. Sorting working on DataTable (DONE)
+14. Rename Delete to Del (DONE)
+25. Clear checkbox value, when tab changes(DONE)
+23. Mass Action Buttons(DONE)
+22. Clear Filter box value, when user changes tabs(DONE)
+
+PENDING:
+13. Format data as per date etc (DATE)
+25. Set selected status on Checkbox, set selected rows on Parent
+
+DETAIL PAGE
+
+1. Detail Page working (DONE)
+2. Generate Detail Page Sections from view (DONE)
+3. Show Delete Button on DetailViewPage for deletion (DONE)
+4. Edit Button should take to edit record (DONE)
+4. Additional buttons on Detail record. (DONE)
+7. Show Cols 1 is not working properly (DONE)
+5. Show Related List on Detail Page (DONE)
+6. Detail Link on Related List is not working for Detail Page
+
+
+
+Edit Page
+1. Show Edit Page, with sections and subsections (DONE)
+2. Redux form implementation (DONE)
+8. Validation for Required fields (DONE)
+9. Validation for Email (DONE)
+10. Validation for Regex, and Date fields
+17. Lookup on Edit
+
+    a) Add Filter Text and Go button
+    b) Store Name value
+
+18. Populate values via queryString on Edit / New Page
+10. Save Operation (DONE)
+11. Edit Display existing record (DONE)
+
+General
+14. Loading Message everywhere
+15. Toast Message for Saved Record
+
+
+http://www.thegreatcodeadventure.com/jwt-authentication-with-react-redux/
+21. Implement Login Page (DONE)
+22. Implement Auth (DONE)
+23. Validate illegal access is denied (DONE)
+27. Reset Password Page
+
+
+Reports:
+1. Use Google Charts, to derive data from Views
+2.
+
+Header
+1. Format header (name of the logged in User,Logout, Settings)
+
+Diagnositics
+1. Check Database connectivity
+2. Check JSON of config etc
+
+Home
+16. Home Page Components
+19. Cancel Button working on Edit / Detail Pages (DONE)
+20. Delete Button on Delete (DONE)
+
+Settings
+
+24. Design Settings Page
+25. Database Backup feature
+26. Mass Upload feature
+28. Delay in webservice to check loading.
+29. Configure Account,Product,Inventory, Service Order(DONE)
+
+https://www.raymondcamden.com/2015/05/18/tracking-and-notifying-geolocation-status-with-ionic
+
+
+AUTH
+https://github.com/lynndylanhurley/redux-auth
+
+
+USER PREFERENCES
+1. Last Sort Field and Sort order per Object
+2. Expand Collapse of Page Block in Detail page
+3. Last Selected Tab
+4. PageSize
+
+Phase 2
+1. Change Tab Border color Based on currently selected Tab
+2. Date Picker on Edit Page
+3. Consolidate Section Header, PageBlockTable into 1 control
+4. Allow Custom ListViews on List View Page
+6. Show Tabs on Detail Page
+
+
+http://allenfang.github.io/react-bootstrap-table/advance.html#how-to-get-page
+
+<Panel  header={<ChartPanelHeader title={'Work Orders By User'} />} bsStyle="info">
+            <GoogleChart chartType={'PieChart'} chartId={'userWorkOrder'} />
+          </Panel>
+
+
+		 <Panel header={<ChartPanelHeader title={'Pending and Upcoming Orders'} />} bsStyle="info">
+            Panel content
+          </Panel>

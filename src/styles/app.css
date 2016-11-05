@@ -1,0 +1,305 @@
+.map {
+  height: 300px;
+  width: 100%;
+}
+
+.required {
+  color: red;
+  font-weight: bold;
+}
+
+.linetab-container {
+  list-style:none;
+  display:flex;
+  list-style: none;
+  align-items: flex-start;
+  border-bottom:1px solid #d8dde6;
+}
+.linetab-container > li {
+  letter-spacing: .0625rem;
+  text-transform: uppercase;
+  line-height: 1.25;
+}
+
+.linetab {
+  text-decoration:none;
+  display:block;
+  height: 2.5rem;
+  line-height:2.5rem;
+  padding-left: 10px;
+  padding-right:10px;
+  color: #54698d;
+}
+
+.linetab-active {
+  border-color: #0070d2;
+  border-bottom: 2px solid  #0070d2;
+  color: #16325c;
+}
+
+.navbar-default {
+  background-color: #061c3f;
+  border-color: #061c3f;
+  color: #ffffff
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+.sectionTitle {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.pageBlockHeaderTitle {
+  color: #000;
+}
+
+.pageBlockSection {
+  padding-left:15px;
+  padding-right:15px;
+}
+
+.pageBlockSectionTitle {
+  color: #000;
+  font-size: 1.2em;
+  padding-top:3px;
+  padding-bottom:3px;
+  margin-bottom: 20px;
+}
+
+.sortImage {
+  padding-left: 5px;
+}
+
+.helpIcon {
+  position:absolute;
+  left: -8px;
+  top: 8px;
+}
+
+.actionCol {
+  width: 10%;
+}
+
+.detailLabel {
+  text-align: right;
+  font-weight: bold;
+  width: 20%;
+}
+
+.detailValue {
+  width:30%;
+}
+
+
+.modal-primary .modal-header,
+.modal-info .modal-header,
+.modal-success .modal-header,
+.modal-warning .modal-header,
+.modal-danger .modal-header {
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+}
+.modal-primary .modal-header {
+  background: #428bca;
+}
+.modal-info .modal-header {
+  background: #5bc0de;
+}
+.modal-success .modal-header {
+  background: #5cb85c;
+}
+.modal-warning .modal-header {
+  background: #f0ad4e;
+}
+.modal-danger .modal-header {
+  background: #d9534f;
+}
+
+
+.panel-default {
+  border-color: #ddd;
+}
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.panel-default > .panel-heading {
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}
+
+.panel-body {
+  padding: 15px;
+}
+
+/*****************USER SPECIFIC PANEL **********************************/
+
+.user {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.user-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.user-default {
+  border-color: #E2EAE1;
+}
+.user-default > .user-heading {
+  color: #333;
+  background-color: #E2EAE1;
+  border-color: #E2EAE1;
+}
+
+.user-body {
+  padding: 15px;
+}
+
+.account {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.account-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.account-default {
+  border-color: #EFEFDC;
+}
+.account-default > .account-heading {
+  color: #333;
+  background-color: #EFEFDC;
+  border-color: #EFEFDC;
+}
+
+.account-body {
+  padding: 15px;
+}
+
+.announcement {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.announcement-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.announcement-default {
+  border-color: #D2E3EC;
+}
+.announcement-default > .announcement-heading {
+  color: #333;
+  background-color: #D2E3EC;
+  border-color: #D2E3EC;
+}
+
+.announcement-body {
+  padding: 15px;
+}
+
+.workOrder {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.workOrder-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.workOrder-default {
+  border-color: #E0DBF0;
+}
+.workOrder-default > .workOrder-heading {
+  color: #333;
+  background-color: #E0DBF0;
+  border-color: #E0DBF0;
+}
+
+.workOrder-body {
+  padding: 15px;
+}
+
+.product {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.product-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.product-default {
+  border-color: #EFE4F2;
+}
+.product-default > .product-heading {
+  color: #333;
+  background-color: #EFE4F2;
+  border-color: #EFE4F2;
+}
+
+.product-body {
+  padding: 15px;
+}
+
+
+/******************************END*****************************************************/
+
+
+/* Object Specific CSS Styles Goes here */
+.panel-account {
+  border-color: #E2E7EF;
+}
+
+.panel-account > .panel-heading {
+  background-color: #E2E7EF;
+  border-color: #E2E7EF;
+}
+
+.panel-announcement {
+  border-color: #EEDAC1;
+}
+
+.panel-announcement > .panel-heading {
+  background-color: #EEDAC1;
+  border-color: #EEDAC1;
+}
